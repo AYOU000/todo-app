@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="too-content">
+        <div class="title">
+          <h3>My Todo List</h3>
+        </div>
+        <div class="input">
+          <input id="taskInput" type="text" placeholder="add new todo..." />
+          <button class="btn" onclick="return addtasks()">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <h4 id="line">No todos yet. Add one above to get started!</h4>
+        <div class="task">
+          <ul id="tasks" class="tasks"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
