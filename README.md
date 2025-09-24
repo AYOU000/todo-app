@@ -2,7 +2,7 @@
 
 A simple **To-Do List Application** built using **HTML, CSS, and JavaScript**.  
 This project helps users to add, edit, delete, and mark tasks as completed.  
-Live Demo Link: Added your actual GitHub Pages URL ( https://ayou000.github.io/todo-app/)
+[Live Demo]( https://ayou000.github.io/todo-app/)
 ---
 
 ## 🚀 Features
